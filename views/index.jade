@@ -1,0 +1,12 @@
+extends layout
+
+block content
+
+  h1 Random content generator
+  p This app could be useful for testing throughput over network connections.  Or, it might not be useful at all. You decide!
+  p To use it, send an HTTP GET request to http://host:port/random?sizeInKb={sizeInKb} where sizeInKb is the amount of random content you want in approximate kilobytes.
+  p
+    | For example: 
+    a(href="http://localhost:#{app_port}/random?sizeInKb=500&numberOfImages=2") http://localhost:#{app_port}/random?sizeInKb=500&numberOfImages=2 
+  p If you want to add no-cache headers on the response: http://localhost:#{app_port}/random?sizeInKb={sizeInKb}&dontCache=1&numberOfImages=2
+  p To add a couple of images: http://localhost:#{app_port}/random?sizeInKb={sizeInKb}&numberOfImages=2 (right now, they're just the same image)
