@@ -1,6 +1,6 @@
 # Random Content Generator
 
-Node.js [Express](http://expressjs.com/) application which generates a random amount of content as HTML.  This app was create out of an need for a quick HTTP service to generate a specified amount of content for network throughput testing. 
+Node.js [Express](http://expressjs.com/) application which generates a random amount of content as HTML.  This app was created out of a need for a quick HTTP service to generate a specified amount of content for network throughput testing. 
 
 Or, it might not be useful at all. You decide!  Really, it was a good way to start learning Node.js development.
 
@@ -8,7 +8,7 @@ Uses [Chance.js](http://chancejs.com/) to generate random content.
 
 ## To run:
 
-1. git clone this project: `git clone git@github.com:theothermattm/random-content-generator.git`
+1. git clone this project: `git clone https://github.com/theothermattm/random-content-generator.git`
 1. [Install Node.js](http://nodejs.org/download/)
 1. Run `npm install`
 1. Run `node app`
