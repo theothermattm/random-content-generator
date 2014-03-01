@@ -8,7 +8,7 @@ Uses [Chance.js](http://chancejs.com/) to generate random content.
 
 ## To run:
 
-1. Checkout this project
+1. git clone this project: `git clone git@github.com:theothermattm/random-content-generator.git`
 1. [Install Node.js](http://nodejs.org/download/)
 1. Run `npm install`
 1. Run `node app`
@@ -17,5 +17,5 @@ Uses [Chance.js](http://chancejs.com/) to generate random content.
 ## Options
 
 * You can change default ports and other items in config.js.
-* If you want to add no-cache headers on the response, add a query parameter of `dontCache=1`. Ex: http://localhost:#{app_port}/random?sizeInKb={sizeInKb}&dontCache=1&numberOfImages=2
-* To add a couple of images to the markup, add a `numberOfImages=N` query parameter. Ex: http://localhost:#{app_port}/random?sizeInKb={sizeInKb}&numberOfImages=2 (right now, they're just the same image, this needs to be improved.
+* If you want to add no-cache headers on the response, add a query parameter of `dontCache=1`. Ex: `http://localhost:#{app_port}/random?sizeInKb={sizeInKb}&dontCache=1&numberOfImages=2`
+* To add a couple of images to the markup, add a `numberOfImages=N` query parameter. Ex: `http://localhost:#{app_port}/random?sizeInKb={sizeInKb}&numberOfImages=2` (right now, they're just the same image, this needs to be improved.
