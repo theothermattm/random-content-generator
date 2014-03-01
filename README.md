@@ -1,6 +1,6 @@
 # Random Content Generator
 
-Node.js [Express](http://expressjs.com/) application which generates a random amount of content as an HTML page.  This app was create out of an need for a quick HTTP service to generate a specified amount of content for network throughput testing. 
+Node.js [Express](http://expressjs.com/) application which generates a random amount of content as HTML.  This app was create out of an need for a quick HTTP service to generate a specified amount of content for network throughput testing. 
 
 Or, it might not be useful at all. You decide!  Really, it was a good way to start learning Node.js development.
 
